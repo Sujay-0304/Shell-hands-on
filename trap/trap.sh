@@ -6,6 +6,7 @@ ls -la > temp.txt
 while (( count < 10 ))    
 do 
     echo "press ctrl+c to stop the loop"
+    echo "append $count" >> temp.txt
     sleep 1
     ((count++))
 done
