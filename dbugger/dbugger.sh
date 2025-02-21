@@ -5,8 +5,8 @@ echo "someting"
 count=0
 while [ $count -lt 3 ]
 do
-    eco "Count is $count"
-    ((count++))
+    ech "Count is $count"
+    ((count++)) || true 
 done
 
 set +e

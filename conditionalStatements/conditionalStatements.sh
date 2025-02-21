@@ -1,7 +1,7 @@
 
 # //using test method 
 name="sujay" 
-if test $name = "sujay" 
+if test $name = 9 
 then
     echo "Name is sujay"
 else
@@ -10,14 +10,13 @@ fi
 
 # // using [] method 
 
-if [ $name = "sujay" ];then
+if [ $name = "9" ];then
     echo "Name is sujay"
 else
     echo "Name is not sujay"
 fi
-
 # // using [[]] method  this allows to play with patterns 
-if [[ $name ==  *"jay" ]];then
+if [[ $name == *"jay" ]];then
     echo "Name is sujay"
 else
     echo "Name is not sujay"
