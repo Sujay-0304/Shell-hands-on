@@ -1,4 +1,4 @@
 John Doe | john.doe@example.com
-Jane Smith | jane.smith@example.com
-Alice Johnson | 
+Jane Smith | jane.smit.@example.com
+Alice Johnson | ja.in...smilt.sd@exam.com
 Bob Brown | bob.brown@example.com

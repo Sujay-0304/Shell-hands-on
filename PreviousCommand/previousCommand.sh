@@ -1,15 +1,11 @@
 
 # set -x
-ls fileName.sh
+[ -f execute.sh ]
 if [ $? -eq 0 ]; then
-    echo "File exists"
+    ./execute.sh
 else
     echo "File does not exist"
+    ./notExecute.sh
 fi
 
 
-cd testdir
-case $? in
-    0) echo "Directory created successfully." ;;
-    *) echo "Failed to create directory." ;;
-esac
